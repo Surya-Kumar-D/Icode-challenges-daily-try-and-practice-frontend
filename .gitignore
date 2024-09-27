@@ -1,0 +1,26 @@
+# Node modules (if using Tailwind with npm)
+node_modules/
+
+# Tailwind CSS build output (if using a build process)
+public/css/*.css
+public/css/*.css.map
+dist/
+build/
+
+# Ignore Tailwind config file (if generated and not needed in version control)
+tailwind.config.js
+
+# macOS system files
+.DS_Store
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.log
+
+# Package-lock or yarn lock (depending on your preference)
+package-lock.json
+yarn.lock
+
+# Cache folders
+.cache/
