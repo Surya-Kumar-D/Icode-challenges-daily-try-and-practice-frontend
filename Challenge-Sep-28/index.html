@@ -6,60 +6,117 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
-  <body class="bg-[#F3F9FE] m-0 p-[5rem] box-border">
-    <div
-      class="flex flex-col items-center justify-center h-[90vh] w-[80wv] tri"
+  <body class="mt-[5rem] bg-[#FAFAFA] h-[100vh] w-[100vw] overflow-hidden">
+    <ul
+      class="list-none flex w-[100vw] mx-[auto] justify-around items-center border-b-[1px]"
     >
-      <div class="h-[60%] bg-[#FFFFFF] w-[100%] py-5 contain">
-        <ul class="flex justify-end h-[10%] w-[100%] gap-5 font-medium">
-          <li>Home</li>
-          <li>Courses</li>
-          <li class="mr-5">Blog</li>
-        </ul>
-        <div
-          class="flex flex-col p-[5rem] justify-center w-[70%] items-start gap-7 web"
-        >
-          <h1 class="font-medium text-[2rem] text-">Web development course</h1>
-          <p>
-            Learn to code with an easy to understand, project based learning
-            path
-          </p>
-          <button
-            class="text-[#ffff] bg-[#3E9CCF] py-2 px-5 inline-block rounded-md"
-          >
-            Browse courses
+      <li class="text-[2rem] text-[grey] font-light">Le Musique</li>
+      <li>
+        <div class="flex items-center gap-[1rem]">
+          <button class="material-symbols-outlined cursor-pointer">
+            search
           </button>
+          <input type="text" placeholder="Search" />
         </div>
+      </li>
+    </ul>
+    <main class="w-[100%] h-[50%] flex items-center justify-center gap-5">
+      <div class="md:px-[3rem] md:py-[2rem] w-[25rem] flex flex-col gap-5">
+        <h1 class="text-[2rem] text-[#fff]">Explore</h1>
+        <p class="text-[1rem] text-[#fff]">
+          Torquent velit, sed, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <button class="w-[200px] text-[blue] bg-[#fff] px-1 py-3">
+          Read More
+        </button>
       </div>
-      <div
-        class="bg-[#0F102B] h-[40%] w-[100%] text-[#ffff] flex justify-center items-center circle relative"
-      >
-        <div class="flex flex-col w-[50%] items-center justify-center gap-5">
-          <h2 class="text-[2rem] text-center p-2">
-            Join the Traversy Media mailing list
-          </h2>
-          <p class="text-[1rem] mb-5">
-            Sign up to the newsletter and be the first one to know about new
-            courses of special offers.
-          </p>
-          <div class="flex gap-1 w-[100%]">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              class="w-[100%] h-[100%] rounded-md border-2 p-2"
-            />
-            <button
-              class="bg-[#3E9CCF] text-[#ffff] py-2 px-5 inline-block rounded-md"
-            >
-              Subscribe
-            </button>
+      <div class="w-[200px] h-[250px] bg-[#fff]">
+        <div class="h-[60%] w-[100%]">
+          <img
+            src="https://i.pravatar.cc/400?img=55"
+            alt="img-concert"
+            class="h-[100%] w-[100%] object-cover"
+          />
+        </div>
+        <div class="flex justify-around items-center">
+          <div class="flex items-center">
+            <span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span>
+            <span class="material-symbols-outlined"> star </span>
           </div>
-          <p class="text-start text-[.5rem] w-[100%] pb2">
-            We won't spam. Pinky promise!
-          </p>
+          <div>$15</div>
         </div>
+        <p class="text-center">This is Acting (Deluxe Version)</p>
       </div>
-    </div>
+      <div class="w-[200px] h-[250px] bg-[#fff]">
+        <div class="h-[60%] w-[100%]">
+          <img
+            src="https://i.pravatar.cc/400?img=33"
+            alt="img-concert"
+            class="h-[100%] w-[100%] object-cover"
+          />
+        </div>
+        <div class="flex justify-around items-center">
+          <div class="flex items-center">
+            <span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+          </div>
+          <div>$15</div>
+        </div>
+        <p class="text-center">This is Acting (Deluxe Version)</p>
+      </div>
+      <div class="w-[200px] h-[250px] bg-[#fff]">
+        <div class="h-[60%] w-[100%]">
+          <img
+            src="https://i.pravatar.cc/400?img=31"
+            alt="img-concert"
+            class="h-[100%] w-[100%] object-cover"
+          />
+        </div>
+        <div class="flex justify-around items-center">
+          <div class="flex items-center">
+            <span class="material-symbols-outlined text-blue-600 fill-blue-500">
+              star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+          </div>
+          <div>$15</div>
+        </div>
+        <p class="text-center">This is Acting (Deluxe Version)</p>
+      </div>
+      <div class="w-[200px] h-[250px] bg-[#fff]">
+        <div class="h-[60%] w-[100%]">
+          <img
+            src="https://i.pravatar.cc/400?img=30"
+            alt="img-concert"
+            class="h-[100%] w-[100%] object-cover"
+          />
+        </div>
+        <div class="flex justify-around items-center">
+          <div class="flex items-center">
+            <span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span
+            ><span class="material-symbols-outlined text-blue-600"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+          </div>
+          <div>$15</div>
+        </div>
+        <p class="text-center">This is Acting (Deluxe Version)</p>
+      </div>
+    </main>
   </body>
 </html>
