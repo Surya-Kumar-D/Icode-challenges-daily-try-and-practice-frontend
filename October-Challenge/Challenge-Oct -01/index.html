@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-[#93B7F6] flex justify-center items-center h-[100vh] w-[100vw]"
+  >
+    <div
+      class="flex flex-col h-[80vh] justify-between w-[600px] p-[3rem] bg-gradient-to-br from-[#D9EBFA] rounded-lg to-[#CBF8FB]"
+    >
+      <h1
+        class="text-[2rem] font-bold text-[#ffff] underline underline-offset-8"
+      >
+        SELECT YOUR FAVORITE ANIMAL
+      </h1>
+      <div class="slider-wrapper w-[100%] p-[1rem]">
+        <div class="slider">
+          <img
+            class="w-[100%]"
+            id="one"
+            src="https://images.unsplash.com/photo-1571222955599-b7b125b5fbfc?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Deer Image"
+          />
+          <img
+            id="two"
+            src="https://images.unsplash.com/photo-1706455625759-7ab005e4c550?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Lion Image"
+            class="w-[100%]"
+          />
+          <img
+            id="three"
+            src="https://images.unsplash.com/photo-1713624758747-cec0861dc377?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Squirrel Image"
+            class="w-[100%]"
+          />
+          <img
+            id="four"
+            src="https://images.unsplash.com/photo-1523626797181-8c5ae80d40c2?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Dog Image"
+            class="w-[100%]"
+          />
+          <img
+            id="five"
+            src="https://images.unsplash.com/photo-1506891536236-3e07892564b7?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Cat Image"
+            class="w-[100%]"
+          />
+        </div>
+        <div class="slider-nav">
+          <a href="#one"></a>
+          <a href="#two"></a>
+          <a href="#three"></a>
+          <a href="#four"></a>
+          <a href="#five"></a>
+        </div>
+      </div>
+      <button
+        class="inline-block bg-[#FF84CB] px-[quto] py-2 text-[#ffff] text-[2rem]"
+      >
+        continue
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
