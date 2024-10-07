@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#EDEEF7] flex items-center justify-center h-screen w-full">
+    <div
+      class="h-[70%] w-[60%] max-w-[700px] bg-[#EDEEF7] border-[1rem] border-[#ffff] rounded-2xl p-[2rem] flex flex-col gap-[2.5rem]"
+    >
+      <div><h1 class="font-bold text-[2rem]">Mortgage Calculator</h1></div>
+      <div class="flex gap-[5rem] w-full">
+        <div class="flex flex-col gap-5">
+          <p>Purchase Price: <span class="font-bold">$450,000</span></p>
+          <input type="range" min="0" max="100" value="50" />
+        </div>
+        <div class="flex flex-col gap-5">
+          <p>Equity: <span class="font-bold">$135,000</span></p>
+          <input type="range" min="0" max="100" value="20" />
+        </div>
+        <div class="flex flex-col gap-5">
+          <p>Repayment time: <span class="font-bold">25 Years</span></p>
+          <input type="range" min="0" max="100" value="100" />
+        </div>
+      </div>
+      <div class="flex gap-[5rem]">
+        <div class="flex flex-col">
+          <p>Loan amount</p>
+          <p class="font-bold text-[2rem]">$315,000</p>
+        </div>
+        <div class="flex flex-col">
+          <p>Estimated pr.month:</p>
+          <p class="font-bold text-[2rem]">$1,300</p>
+          <p class="text-[.6rem] font-light">2.10% eff./24% nrom. interest</p>
+        </div>
+      </div>
+      <div>
+        <button class="px-6 rounded-lg py-4 bg-[#5767FE] text-[#ffff]">
+          Get a mortgage quote
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

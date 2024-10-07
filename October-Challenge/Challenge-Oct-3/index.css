@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(10, minmax(min-content, 1fr));
+  grid-template-rows: repeat(10, minmax(min-content, 1fr));
+}
+img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.one {
+  grid-area: 2/2/3/5;
+  gap: 2rem;
+
+  @media screen and (width < 1024px) {
+    grid-area: 2/1/3/5;
+    /* padding: 0.5rem; */
+    gap: 1rem;
+    width: 120%;
+  }
+}
+
+.two {
+  grid-area: 2/ 6/ 5 /10;
+}
