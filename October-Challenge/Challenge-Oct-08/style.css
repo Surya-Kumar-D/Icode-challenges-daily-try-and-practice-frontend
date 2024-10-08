@@ -1,0 +1,35 @@
+.main {
+  visibility: hidden;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 93%,
+    48% 93%,
+    53% 100%,
+    37% 94%,
+    0 93%
+  );
+  transition: all 0.3s ease-in;
+}
+
+.img-1:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.img-2:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.main-2 {
+  visibility: hidden;
+
+  clip-path: polygon(
+    0% 0%,
+    90% 0,
+    90% 48%,
+    100% 56%,
+    90% 61%,
+    90% 100%,
+    0 100%
+  );
+}
