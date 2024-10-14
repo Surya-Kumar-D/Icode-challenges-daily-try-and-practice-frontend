@@ -1,0 +1,30 @@
+.grid {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 80%;
+  width: 80%;
+}
+.one {
+  grid-area: 1/1/3/-1;
+  background-color: #fff;
+}
+
+.two {
+  grid-area: 4/1/7 / 4;
+  height: 100%;
+  width: 95%;
+}
+
+.three {
+  grid-area: 4/4/7/7;
+  width: 95%;
+  height: 100%;
+  justify-self: end;
+}
+.one > div {
+  transition: background-color 0.3s ease;
+}
+
+.one > div > div:hover {
+  background-color: rgba(130, 198, 253, 0.3);
+}
